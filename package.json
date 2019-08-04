@@ -1,0 +1,17 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "mock data",
+  "main": "index.js",
+  "scripts": {
+    "mock": "json-server -c json-server.json --watch db/db.js"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "jiangy",
+  "license": "ISC",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3"
+  }
+}
